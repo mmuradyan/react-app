@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Table, Button, Modal, ModalHeader, ModalBody, ModalFooter, Input, FormGroup, Label } from 'reactstrap'
-import { map } from 'rsvp';
+//import { map } from 'rsvp';
 
 class Books extends Component {
 

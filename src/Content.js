@@ -27,7 +27,7 @@ export default class Content extends Component {
         var { isLoaded, data } = this.state;
 
         if(!isLoaded){
-            return <h3>Data is loading...</h3>
+            return <h4>Data is loading...</h4>
         }else{
             console.log(data);
             return (
