@@ -8,6 +8,7 @@ import Books from './containers/Books'
 import Test from './containers/Test'
 import Age from './containers/Age'
 import Counter from './containers/Counter'
+import Testing from "./Testing";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Books /> 
       <Content />
       <PostForm />
+      <Testing />
     </div>
   );
 }
